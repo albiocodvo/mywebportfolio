@@ -21,6 +21,7 @@ body {
 .about-header h1 {
     font-weight: 1000;
     font-size: 50px;
+    color: #fff;
 }
 .header {
     position: fixed;
@@ -261,8 +262,7 @@ body {
     background: #ffffff;
     border-radius: 50%;
   }
-  
-  /* LEAVE TILL LAST */
+
   .timeline__point--bottom {
     top: initial;
     bottom: 0;
@@ -285,11 +285,24 @@ body {
 
 .skills-card:hover {
     transition: transform .5s;
-    -ms-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2); 
+    -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); 
 }
 
 .card {
     background: var(--light)!important;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container {
+    background: var(--light);
+    text-align: center;
+    padding: 20px 20px;
 }
